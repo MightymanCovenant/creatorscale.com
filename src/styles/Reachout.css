@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+.reachoutSectionFirstText{
+    font-size: 55px;
+    font-family: 'Epilogue', sans-serif;
+    margin-left: 100px;
+    padding-top: 100px;
+}
+
+.reachoutSectionSecondText{
+    font-family: 'Epilogue', sans-serif;
+    margin-left: 100px;
+    font-size: 18px;
+}
+
+.reachoutMainDiv{
+    display: grid;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.reachoutFirstDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.reachoutSecondDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.whatsAppColumn{
+    display: flex;
+    align-items: center;
+    width: 35%;
+    border: 1px solid #424242;
+    padding: 35px 40px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.whatsAppColumn:hover{
+    transform: scale(1.1);
+}
+
+.rWhatsappIcon{
+    font-size: 70px;
+    color: #424242;
+}
+
+.telegramColumn{
+    display: flex;
+    align-items: center;
+    width: 35%;
+    border: 1px solid #424242;
+    padding: 35px 40px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.telegramColumn:hover{
+    transform: scale(1.1);
+}
+
+.rTelegramIcon{
+    font-size: 70px;
+    color: #424242;
+}
+
+.instagramColumn{
+    display: flex;
+    align-items: center;
+    width: 35%;
+    border: 1px solid #424242;
+    padding: 35px 40px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.instagramColumn:hover{
+    transform: scale(1.1);
+}
+
+.rInstagramIcon{
+    font-size: 70px;
+    color: #424242;
+}
+
+.facebookColumn{
+    display: flex;
+    align-items: center;
+    width: 35%;
+    border: 1px solid #424242;
+    padding: 35px 40px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.facebookColumn:hover{
+    transform: scale(1.1);    
+}
+
+.rFacebookIcon{
+    font-size: 70px;
+    color: #424242;
+}
+
+.rGridContainer{
+    display: grid;
+    gap: 10px;
+    padding-left: 10px;
+}
+
+.rWA{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.rTG{
+    font-size: 25px;
+    font-weight: 600;  
+}
+
+.rIG{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.rFB{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+
+
+@media (max-width: 400px) {
+    .reachoutParentSection{
+        padding: 0;
+    }
+
+    .reachoutSectionFirstText{
+        font-size: 30px;
+        font-family: 'Epilogue', sans-serif;
+        margin-left: 35px;
+        padding-top: 50px;
+    }
+
+    .reachoutSectionSecondText{
+        margin-left: 35px;
+    }
+
+    .reachoutMainDiv{
+        display: grid;
+        gap: 25px;
+    }
+
+    .reachoutFirstDiv{
+        display: grid;
+        gap: 25px;
+    }
+    
+    .reachoutSecondDiv{
+        display: grid;
+        gap: 25px;
+        padding-bottom: 50px;
+    }
+
+
+    .whatsAppColumn{
+        display: flex;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .telegramColumn{
+        display: flex;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .instagramColumn{
+        display: flex;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .facebookColumn{
+        display: flex;
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .reachoutParentSection{
+        padding: 0;
+    }
+
+    .reachoutSectionFirstText{
+        font-size: 30px;
+        font-family: 'Epilogue', sans-serif;
+        margin-left: 35px;
+        padding-top: 50px;
+    }
+
+    .reachoutSectionSecondText{
+        margin-left: 35px;
+    }
+
+    .reachoutMainDiv{
+        display: grid;
+        gap: 25px;
+    }
+
+    .reachoutFirstDiv{
+        display: grid;
+        gap: 25px;
+    }
+    
+    .reachoutSecondDiv{
+        display: grid;
+        gap: 25px;
+        padding-bottom: 50px;
+    }
+
+
+    .whatsAppColumn{
+        display: flex;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .telegramColumn{
+        display: flex;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .instagramColumn{
+        display: flex;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .facebookColumn{
+        display: flex;
+        width: 60%;
+        margin: 0 auto;
+    }
+}

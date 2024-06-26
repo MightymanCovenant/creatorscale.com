@@ -1,0 +1,33 @@
+footer{
+    background-color: rgb(177, 177, 177);
+}
+
+.footerSection{
+    display: grid;
+    grid-gap: 20px;
+    font-family: 'Epilogue', sans-serif;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footerLogo{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.wordTwo{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.wordThree{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.footerHr{
+    margin: 0 auto;
+    width: 90%;
+    color: black;
+}
