@@ -27,6 +27,8 @@ export const About = () => {
                         dolore harum rem quam magni beatae voluptatem itaque rerum eaque mollitia?
                         perspiciatis. Repellendus suscipit est blanditiis, reprehenderit nihil asperiores ipsum, 
                         dolore harum rem quam magni beatae voluptatem itaque rerum eaque mollitia?</p>
+
+                        <p> Hello beautiful world </p>
                 </div>
             </div>
 
