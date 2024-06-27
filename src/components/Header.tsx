@@ -1,6 +1,11 @@
 import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
-import '../components/Header.css'
+import '../components/header2.css'
+import { faSun } from '@fortawesome/free-regular-svg-icons';
+import { faMoon } from '@fortawesome/free-regular-svg-icons';
+import { faBarChart } from '@fortawesome/free-regular-svg-icons';
+import { faXmarkCircle } from '@fortawesome/free-regular-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 export const Header = () => {
@@ -22,35 +27,28 @@ export const Header = () => {
 
     return (
         <header>
-
             <nav>
-                <div className='resNav'>
-                    <Link to='/' className='creatorHomeLink'> creatorscale🚀 </Link>
+                <Link to='/' className='creatorScaleLink'> creatorscale🚀 </Link>
 
-                    <div className='nav-toggle' onClick={toggleNav}>
-                        {navOpen ? 'x' : '😇'}
+                <div className={`navLinks ${navOpen ? 'open' : ''}`}>
+                    <Link to='/' className='homeLink'> Home </Link>
+                    <Link to='/about' className='aboutLink'> About </Link>
+                    <Link to='/reachout' className='reachoutLink'> Reachout </Link>
+                </div>
+
+                <div className='navLinksTwo'>
+                    <Link to='/Reachout'> <button className='navBtn'> Book a call </button> </Link>
+
+                    <div className='themeToggleDiv'>
+                        <FontAwesomeIcon icon={faSun} className='sunIcon'/>
+                        <FontAwesomeIcon icon={faMoon} className='moonIcon'/>
                     </div>
                 </div>
-                <div className={`innerNavDiv ${navOpen ? 'open' : ''}`}>
-                    <Link to='/' className='homeLink'>Home</Link>
-                    <hr className='hr1'/>
-                    <Link to='/reachout' className='reachoutLink'> Reachout </Link>
-                    <hr className='hr2'/>
-                    <Link to='/about' className='aboutLink'> About </Link>
-                    <hr className='hr3'/>
-                    <button className='resBtn'>Book a Call</button>
-                </div>
-                
-                <div className='rightNav'>
-                    <Link to='/reachout' className='bookCallLink'> <button className='bookCallBtn'> Book a call </button> </Link>
 
-                    <p onClick={toggleTheme} className='themeIcon'>
-                        {theme === 'light' ? '🌑' : '☀️'}
-                        </p>
+                <div className='nav-toggle' onClick={toggleNav}>
+                    {navOpen ? <FontAwesomeIcon icon={faXmarkCircle} /> : <FontAwesomeIcon icon={faBarChart} />}
                 </div>
-
             </nav>
-
         </header>
     )
 }

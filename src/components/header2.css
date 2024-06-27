@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    --background-color: white;
+    --color: black;
+}
+
+[data-theme='dark'] {
+    --background-color: 0D1117;
+    --text-color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.creatorScaleLink{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Red hat display', sans-serif;
+    color: black;
+    font-weight: 800;
+}
+
+.navLinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.navLinksTwo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-toggle{
+    display: none;
+}
+
+.homeLink{
+    text-decoration: none;
+    color: black;
+    font-family: 'Red hat display', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.aboutLink{
+    text-decoration: none;
+    color: black;
+    font-family: 'Red hat display', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.reachoutLink{
+    text-decoration: none;
+    color: black;
+    font-family: 'Red hat display', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.navBtn{
+    padding: 10px 25px;
+    border: none;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Red hat display', sans-serif;
+    position: relative;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.themeToggleDiv{
+    /* display: none; */
+}
+
+@media (max-width: 400px) {
+
+    header{
+        background-color: inherit;
+        padding-bottom: 10px;
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .navLinks{
+        display: none;
+        gap: 1px;
+        padding-bottom: 20px;
+        flex-direction: column;
+        width: 100%;
+        height: 37vh;
+        align-items: flex-start;
+        position: absolute;
+        bottom: 53px; /* Position it below the header */
+        right: 0;
+        transform: translateY(-100%);
+        transition: transform 1.5s ease-in-out;
+        background-color: white;
+        z-index: 1;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;  
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    }
+
+    .navLinks.open{
+        display: flex;
+    }
+
+    .themeToggleDiv{
+        /* display: block; */
+    }
+
+    .nav-toggle {
+        display: block;
+        color: black;
+        font-weight: 600;
+        font-family: 'Red Hat Display', sans-serif;
+    }
+
+    .navLinksTwo{
+        display: none;
+    }
+
+    .creatorScaleLink{
+        font-size: 20px;
+    }
+}
