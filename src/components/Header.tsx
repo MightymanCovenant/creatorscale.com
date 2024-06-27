@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import '../components/header2.css'
 import { faSun } from '@fortawesome/free-regular-svg-icons';
@@ -7,22 +7,12 @@ import { faBarChart } from '@fortawesome/free-regular-svg-icons';
 import { faXmarkCircle } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-
 export const Header = () => {
     const [navOpen, setNavOpen] = useState(false);
-    const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark');
 
-    useEffect(() => {
-        document.documentElement.setAttribute('data-theme', theme);
-        localStorage.setItem('theme', theme);
-      }, [theme]);
 
     const toggleNav = () => {
         setNavOpen(!navOpen);
-    };
-
-    const toggleTheme = () => {
-        setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
     };
 
     return (
