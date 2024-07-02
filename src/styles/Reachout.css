@@ -309,7 +309,7 @@
     }
 }
 
-@media (max-width: 500px) (max-height: 850px){
+@media (max-width: 500px) and (max-height: 850px){
     .reachoutParentSection{
         padding: 0;
     }
