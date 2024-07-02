@@ -1,5 +1,9 @@
-footer{
+.Footer.light{
     background-color: black;
+}
+
+.Footer.dark{
+    background-color: #0e0d0d;
 }
 
 .footerSection{
