@@ -5,13 +5,31 @@
     padding: 0;
 }
 
-.aboutFirstText{
+.aboutSection.light{
+    background-color: white;
+}
+
+.aboutSection.dark{
+    background-color: #121212;
+}
+
+.aboutFirstText.light{
     font-size: 40px;
     font-family: 'Epilogue', sans-serif;
     margin-top: 50px;
     margin-bottom: 20px;
     margin-left: 50px;
+    color: white;
 } 
+
+.aboutFirstText.dark{
+    font-size: 40px;
+    font-family: 'Epilogue', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    color: #E0E0E0;
+}
 
 .aboutLoremTextDiv{
     width: 75%;
@@ -19,9 +37,16 @@
     margin-bottom: 40px;
 }
 
-.aboutLoremText{
+.aboutLoremText.light{
     font-size: 18px;
     font-family: 'Red hat display', sans-serif;
     color: black;
     font-weight: 600;
 }   
+
+.aboutLoremText.dark{
+    font-size: 18px;
+    font-family: 'Red hat display', sans-serif;
+    color: #E0E0E0;
+    font-weight: 600;
+}
