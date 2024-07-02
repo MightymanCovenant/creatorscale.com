@@ -5,17 +5,42 @@
     padding: 0;
 } */
 
-.reachoutSectionFirstText{
+.reachoutParentSection.light{
+    background-color: white;
+}
+
+.reachoutParentSection.dark{
+    background-color: #121212;
+}
+
+.reachoutSectionFirstText.light{
     font-size: 55px;
     font-family: 'Epilogue', sans-serif;
     margin-left: 100px;
     padding-top: 100px;
+    color: black;
 }
 
-.reachoutSectionSecondText{
+.reachoutSectionFirstText.dark{
+    font-size: 55px;
+    font-family: 'Epilogue', sans-serif;
+    margin-left: 100px;
+    padding-top: 100px;
+    color: #E0E0E0;
+}
+
+.reachoutSectionSecondText.light{
     font-family: 'Epilogue', sans-serif;
     margin-left: 100px;
     font-size: 18px;
+    color: black;
+}
+
+.reachoutSectionSecondText.dark{
+    font-family: 'Epilogue', sans-serif;
+    margin-left: 100px;
+    font-size: 18px;
+    color: #E0E0E0;
 }
 
 .reachoutMainDiv{
@@ -41,7 +66,7 @@
     font-family: 'Epilogue', sans-serif;
 }
 
-.whatsAppColumn{
+.whatsAppColumn.light{
     display: flex;
     align-items: center;
     width: 35%;
@@ -49,6 +74,18 @@
     padding: 35px 40px;
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
+}
+
+.whatsAppColumn.dark{
+    display: flex;
+    align-items: center;
+    width: 35%;
+    border: 2px solid #707070;
+    padding: 35px 40px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+    background-color: #282828;
+    color: #E0E0E0;
 }
 
 .whatsAppColumn:hover{
@@ -57,10 +94,10 @@
 
 .rWhatsappIcon{
     font-size: 70px;
-    color: #424242;
+    color: #707070;
 }
 
-.telegramColumn{
+.telegramColumn.light{
     display: flex;
     align-items: center;
     width: 35%;
@@ -68,6 +105,18 @@
     padding: 35px 40px;
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
+}
+
+.telegramColumn.dark{
+    display: flex;
+    align-items: center;
+    width: 35%;
+    border: 2px solid #707070;
+    padding: 35px 40px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+    background-color: #282828;
+    color: #E0E0E0;
 }
 
 .telegramColumn:hover{
@@ -76,10 +125,10 @@
 
 .rTelegramIcon{
     font-size: 70px;
-    color: #424242;
+    color: #707070;
 }
 
-.instagramColumn{
+.instagramColumn.light{
     display: flex;
     align-items: center;
     width: 35%;
@@ -87,6 +136,18 @@
     padding: 35px 40px;
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
+}
+
+.instagramColumn.dark{
+    display: flex;
+    align-items: center;
+    width: 35%;
+    border: 2px solid #707070;
+    padding: 35px 40px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+    background-color: #282828;
+    color: #E0E0E0;
 }
 
 .instagramColumn:hover{
@@ -95,10 +156,10 @@
 
 .rInstagramIcon{
     font-size: 70px;
-    color: #424242;
+    color: #707070;
 }
 
-.facebookColumn{
+.facebookColumn.light{
     display: flex;
     align-items: center;
     width: 35%;
@@ -108,13 +169,25 @@
     transition: transform 0.3s ease-in-out;
 }
 
+.facebookColumn.dark{
+    display: flex;
+    align-items: center;
+    width: 35%;
+    border: 2px solid #707070;
+    padding: 35px 40px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+    background-color: #282828;
+    color: #E0E0E0;
+}
+
 .facebookColumn:hover{
     transform: scale(1.1);    
 }
 
 .rFacebookIcon{
     font-size: 70px;
-    color: #424242;
+    color: #707070;
 }
 
 .rGridContainer{
@@ -146,19 +219,27 @@
 
 
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .reachoutParentSection{
         padding: 0;
     }
 
-    .reachoutSectionFirstText{
+    .reachoutSectionFirstText.light{
         font-size: 30px;
         font-family: 'Epilogue', sans-serif;
         margin-left: 35px;
         padding-top: 50px;
     }
 
-    .reachoutSectionSecondText{
+    .reachoutSectionFirstText.dark{
+        font-size: 30px;
+        font-family: 'Epilogue', sans-serif;
+        margin-left: 35px;
+        padding-top: 50px;
+        color: #E0E0E0;
+    }
+
+    .reachoutSectionSecondText.light{
         margin-left: 35px;
     }
 
@@ -179,32 +260,56 @@
     }
 
 
-    .whatsAppColumn{
+    .whatsAppColumn.light{
         display: flex;
         width: 60%;
         margin: 0 auto;
     }
 
-    .telegramColumn{
+    .whatsAppColumn.dark{
         display: flex;
         width: 60%;
         margin: 0 auto;
     }
 
-    .instagramColumn{
+    .telegramColumn.light{
         display: flex;
         width: 60%;
         margin: 0 auto;
     }
 
-    .facebookColumn{
+    .telegramColumn.dark{
+        display: flex;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .instagramColumn.light{
+        display: flex;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .instagramColumn.dark{
+        display: flex;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .facebookColumn.light{
+        display: flex;
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+    .facebookColumn.dark{
         display: flex;
         width: 60%;
         margin: 0 auto;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 500px) (max-height: 850px){
     .reachoutParentSection{
         padding: 0;
     }

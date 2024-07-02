@@ -7,6 +7,8 @@
 
 .aboutSection.light{
     background-color: white;
+    padding: 0;
+    margin: 0;
 }
 
 .aboutSection.dark{
@@ -16,10 +18,11 @@
 .aboutFirstText.light{
     font-size: 40px;
     font-family: 'Epilogue', sans-serif;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-bottom: 20px;
     margin-left: 50px;
-    color: white;
+    width: 70%;
+    color: black;
 } 
 
 .aboutFirstText.dark{
