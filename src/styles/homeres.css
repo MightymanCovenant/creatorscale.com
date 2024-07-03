@@ -38,44 +38,22 @@
         padding-top: 60px;
     }
 
-    .sectionTwoFirstText.light{
+    .sectionTwoFirstText{
         font-size: 25px;
         font-family: 'Epilogue', sans-serif;
         font-weight: 450;
     }
 
-    .sectionTwoFirstText.dark{
-        font-size: 25px;
-        font-family: 'Epilogue', sans-serif;
-        font-weight: 450;
-    }
-
-    .sectionTwoMainDiv.light{
+    .sectionTwoMainDiv{
         display: grid;
         gap: 30px;
         font-family: 'Red hat display', sans-serif;
     }
 
-    .sectionTwoMainDiv.dark{
-        display: grid;
-        gap: 30px;
-        font-family: 'Red hat display', sans-serif;
-    }
-
-    .secTwoInnerDiv1.light{
+    .secTwoInnerDiv1{
         display: grid;
         gap: 20px;
         background-color: white;
-        width: max-content;
-        margin: 0 auto;
-        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-    }
-
-    .secTwoInnerDiv1.dark{
-        display: grid;
-        gap: 20px;
-        background-color: #282828;
-        color: #E0E0E0;
         width: max-content;
         margin: 0 auto;
         box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
@@ -100,15 +78,7 @@
         padding-bottom: 50px;
     }
 
-    .sectionThreeFirstText.light{
-        font-size: 20px;
-        font-family: 'Manrope';
-        font-weight: 450;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .sectionThreeFirstText.dark{
+    .sectionThreeFirstText{
         font-size: 20px;
         font-family: 'Manrope';
         font-weight: 450;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header } from '../components/Header';
+import { Navbar } from '../components/Navbar'
 import '../styles/Home.css'
 import '../styles/homeres.css'
 import { Link } from 'react-router-dom';
@@ -16,28 +16,28 @@ export const Home = () => {
 
     return (
         <section className='mainHtmlBody'>
-            <Header/>
+            <Navbar/>            
 
-            <section className={`sectionOne ${theme}`}>
-                <div className={`sectionOneMainDiv ${theme}`}>
-                    <p className={`sectionOneFirstText ${theme}`}>Helping <span className='span1'> Creators, Influencers, Business owners </span> create landing pages that turn their visitors into paying customers. And retain them afterwards</p>
+            <section className='sectionOne'>
+                <div className='sectionOneMainDiv'>
+                    <p className='sectionOneFirstText'>Helping <span className='span1'> Creators, Influencers, Business owners </span> create landing pages that turn their visitors into paying customers. And retain them afterwards</p>
                     <p className='sectionOneSecondTxt'> We provide web solutions to brands that are looking to <br />appeal and convert their audience </p>
                     <div className='sectionOneBtnDiv'>
-                        <Link to='/reachout'> <button className={`sectionOneBtnOne ${theme}`}> Talk to us 📞</button> </Link>
-                        <Link to='/about'> <button className={`sectionOneBtnTwo ${theme}`}> Know more 🤷‍♂️ </button> </Link>
+                        <Link to='/reachout'> <button className='sectionOneBtnOne'> Talk to us 📞</button> </Link>
+                        <Link to='/about'> <button className='sectionOneBtnTwo'> Know more 🤷‍♂️ </button> </Link>
                     </div>
                 </div>
             </section>
 
-            <section className={`sectionTwo ${theme}`}>
-                <p className={`sectionTwoFirstText ${theme}`}> Our services </p>
+            <section className='sectionTwo'>
+                <p className='sectionTwoFirstText'> Our services </p>
 
-                <div className={`sectionTwoMainDiv ${theme}`}>
+                <div className='sectionTwoMainDiv'>
 
-                    <div className={`secTwoInnerDiv1 ${theme}`}>
-                        <p className={`secTwoSubHeading ${theme}`}>Social Media Optimization</p>
+                    <div className='secTwoInnerDiv1'>
+                        <p className='secTwoSubHeading'>Social Media Optimization</p>
 
-                        <div className={`secTwoMainInner ${theme}`}>
+                        <div className='secTwoMainInner'>
                             <p> ✅ To convert your audience </p>
                             <p> ✅ Boost your brand </p>
                             <p> ✅ Get more followers </p>
@@ -45,7 +45,7 @@ export const Home = () => {
                         </div>
                     </div>
                     
-                    <div className={`secTwoInnerDiv2 ${theme}`}>
+                    <div className='secTwoInnerDiv2'>
                         <p className='secTwoSubHeading'> We create Landing pages </p>
 
                         <div className='secTwoMainInner'>
@@ -61,10 +61,10 @@ export const Home = () => {
 
             {/* SECTION FOUR */}
 
-            <section className={`sectionThree ${theme}`}>
-                <p className={`sectionThreeFirstText ${theme}`}> Top Tier customer satisfaction <br /> We priotize serving your buisness </p>
+            <section className='sectionThree'>
+                <p className='sectionThreeFirstText'> Top Tier customer satisfaction <br /> We priotize serving your buisness </p>
 
-                <div className={`wrapper ${theme}`}>
+                <div className='wrapper'>
                     <div className='div1'>1</div>
                     <div className='div2'>2</div>
                     <div className='div3'>3</div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header } from '../components/Header';
+import { Navbar } from '../components/Navbar';
 import '../styles/Reachout.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareWhatsapp } from '@fortawesome/free-brands-svg-icons';
@@ -14,16 +14,16 @@ export const Reachout = () => {
     const [ theme ] = useTheme();
 
     return (
-        <section className={`reachoutParentSection ${theme}`}>
-            <Header/>
+        <section className='reachoutParentSection'>
+            <Navbar/>
             
-            <section className={`reachoutSection ${theme}`}>
-                <h1 className={`reachoutSectionFirstText ${theme}`}> creatorscale Help </h1>
-                <p className={`reachoutSectionSecondText ${theme}`}>You can reach out to us now through our various socail media platforms</p>
+            <section className='reachoutSection'>
+                <h1 className='reachoutSectionFirstText'> creatorscale Help </h1>
+                <p className='reachoutSectionSecondText'>You can reach out to us now through our various socail media platforms</p>
 
-                <div className={`reachoutMainDiv ${theme}`}>
-                    <div className={`reachoutFirstDiv ${theme}`}>
-                        <div className={`whatsAppColumn ${theme}`}>
+                <div className='reachoutMainDiv'>
+                    <div className='reachoutFirstDiv'>
+                        <div className='whatsAppColumn'>
                             <Link to='https://www.whatsapp.com/'> <FontAwesomeIcon icon={faSquareWhatsapp} className='rWhatsappIcon'/> </Link>
                             <div className='rGridContainer'>
                                 <p className='rWA'>Whatsapp</p>
@@ -31,7 +31,7 @@ export const Reachout = () => {
                             </div>
                         </div>
 
-                        <div className={`telegramColumn ${theme}`}>
+                        <div className='telegramColumn'>
                             <Link to='https://telegram.org/'> <FontAwesomeIcon icon={faTelegram} className='rTelegramIcon'/> </Link>
                             <div className='rGridContainer'>
                                 <p className='rTG'>Telegram</p>
@@ -40,8 +40,8 @@ export const Reachout = () => {
                         </div>
                     </div>
 
-                    <div className={`reachoutSecondDiv ${theme}`}>
-                        <div className={`instagramColumn ${theme}`}>
+                    <div className='reachoutSecondDiv'>
+                        <div className='instagramColumn'>
                             <Link to='https://www.instagram.com/'> <FontAwesomeIcon icon={faInstagram} className='rInstagramIcon'/> </Link>
                             <div className='rGridContainer'>
                                 <p className='rIG'>Instagram</p>
@@ -49,7 +49,7 @@ export const Reachout = () => {
                             </div>
                         </div>
 
-                        <div className={`facebookColumn ${theme}`}>
+                        <div className='facebookColumn'>
                             <Link to='https://www.Facebook.com/'> <FontAwesomeIcon icon={faFacebook} className='rFacebookIcon'/> </Link>
                             <div className='rGridContainer'>
                                 <p className='rFB'>Facebook</p>

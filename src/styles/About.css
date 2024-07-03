@@ -5,17 +5,12 @@
     padding: 0;
 }
 
-.aboutSection.light{
+.aboutSection{
     background-color: white;
-    padding: 0;
-    margin: 0;
+    height: 100vh;
 }
 
-.aboutSection.dark{
-    background-color: #121212;
-}
-
-.aboutFirstText.light{
+.aboutFirstText{
     font-size: 40px;
     font-family: 'Epilogue', sans-serif;
     margin-top: 25px;
@@ -23,15 +18,6 @@
     margin-left: 50px;
     width: 70%;
     color: black;
-} 
-
-.aboutFirstText.dark{
-    font-size: 40px;
-    font-family: 'Epilogue', sans-serif;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    margin-left: 50px;
-    color: #E0E0E0;
 }
 
 .aboutLoremTextDiv{
@@ -40,16 +26,9 @@
     margin-bottom: 40px;
 }
 
-.aboutLoremText.light{
+.aboutLoremText{
     font-size: 18px;
     font-family: 'Red hat display', sans-serif;
     color: black;
     font-weight: 600;
 }   
-
-.aboutLoremText.dark{
-    font-size: 18px;
-    font-family: 'Red hat display', sans-serif;
-    color: #E0E0E0;
-    font-weight: 600;
-}
