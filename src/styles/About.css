@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
 
 *{
     margin: 0;
@@ -12,7 +14,7 @@
 
 .aboutFirstText{
     font-size: 40px;
-    font-family: 'Epilogue', sans-serif;
+    font-family: 'Manrope';
     margin-top: 25px;
     margin-bottom: 20px;
     margin-left: 50px;
@@ -28,7 +30,7 @@
 
 .aboutLoremText{
     font-size: 18px;
-    font-family: 'Red hat display', sans-serif;
+    font-family: 'Manrope';
     color: black;
     font-weight: 600;
 }   

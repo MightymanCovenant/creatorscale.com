@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
 /* *{
@@ -5,42 +6,23 @@
     padding: 0;
 } */
 
-.reachoutParentSection.light{
+.reachoutParentSection{
     background-color: white;
 }
 
-.reachoutParentSection.dark{
-    background-color: #121212;
-}
-
-.reachoutSectionFirstText.light{
+.reachoutSectionFirstText{
     font-size: 55px;
-    font-family: 'Epilogue', sans-serif;
+    font-family: 'Manrope';
     margin-left: 100px;
     padding-top: 100px;
     color: black;
 }
 
-.reachoutSectionFirstText.dark{
-    font-size: 55px;
-    font-family: 'Epilogue', sans-serif;
-    margin-left: 100px;
-    padding-top: 100px;
-    color: #E0E0E0;
-}
-
-.reachoutSectionSecondText.light{
-    font-family: 'Epilogue', sans-serif;
+.reachoutSectionSecondText{
+    font-family: 'Manrope';
     margin-left: 100px;
     font-size: 18px;
     color: black;
-}
-
-.reachoutSectionSecondText.dark{
-    font-family: 'Epilogue', sans-serif;
-    margin-left: 100px;
-    font-size: 18px;
-    color: #E0E0E0;
 }
 
 .reachoutMainDiv{
@@ -55,7 +37,7 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
-    font-family: 'Epilogue', sans-serif;
+    font-family: 'Manrope';
 }
 
 .reachoutSecondDiv{
@@ -63,10 +45,10 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
-    font-family: 'Epilogue', sans-serif;
+    font-family: 'Manrope'
 }
 
-.whatsAppColumn.light{
+.whatsAppColumn{
     display: flex;
     align-items: center;
     width: 35%;
@@ -74,18 +56,6 @@
     padding: 35px 40px;
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
-}
-
-.whatsAppColumn.dark{
-    display: flex;
-    align-items: center;
-    width: 35%;
-    border: 2px solid #707070;
-    padding: 35px 40px;
-    border-radius: 20px;
-    transition: transform 0.3s ease-in-out;
-    background-color: #282828;
-    color: #E0E0E0;
 }
 
 .whatsAppColumn:hover{
@@ -97,7 +67,7 @@
     color: #707070;
 }
 
-.telegramColumn.light{
+.telegramColumn{
     display: flex;
     align-items: center;
     width: 35%;
@@ -105,18 +75,6 @@
     padding: 35px 40px;
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
-}
-
-.telegramColumn.dark{
-    display: flex;
-    align-items: center;
-    width: 35%;
-    border: 2px solid #707070;
-    padding: 35px 40px;
-    border-radius: 20px;
-    transition: transform 0.3s ease-in-out;
-    background-color: #282828;
-    color: #E0E0E0;
 }
 
 .telegramColumn:hover{
@@ -128,7 +86,7 @@
     color: #707070;
 }
 
-.instagramColumn.light{
+.instagramColumn{
     display: flex;
     align-items: center;
     width: 35%;
@@ -136,18 +94,6 @@
     padding: 35px 40px;
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
-}
-
-.instagramColumn.dark{
-    display: flex;
-    align-items: center;
-    width: 35%;
-    border: 2px solid #707070;
-    padding: 35px 40px;
-    border-radius: 20px;
-    transition: transform 0.3s ease-in-out;
-    background-color: #282828;
-    color: #E0E0E0;
 }
 
 .instagramColumn:hover{
@@ -159,7 +105,7 @@
     color: #707070;
 }
 
-.facebookColumn.light{
+.facebookColumn{
     display: flex;
     align-items: center;
     width: 35%;
@@ -167,18 +113,6 @@
     padding: 35px 40px;
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
-}
-
-.facebookColumn.dark{
-    display: flex;
-    align-items: center;
-    width: 35%;
-    border: 2px solid #707070;
-    padding: 35px 40px;
-    border-radius: 20px;
-    transition: transform 0.3s ease-in-out;
-    background-color: #282828;
-    color: #E0E0E0;
 }
 
 .facebookColumn:hover{
@@ -224,105 +158,17 @@
         padding: 0;
     }
 
-    .reachoutSectionFirstText.light{
-        font-size: 30px;
-        font-family: 'Epilogue', sans-serif;
-        margin-left: 35px;
-        padding-top: 50px;
-    }
-
-    .reachoutSectionFirstText.dark{
-        font-size: 30px;
-        font-family: 'Epilogue', sans-serif;
-        margin-left: 35px;
-        padding-top: 50px;
-        color: #E0E0E0;
-    }
-
-    .reachoutSectionSecondText.light{
-        margin-left: 35px;
-    }
-
-    .reachoutMainDiv{
-        display: grid;
-        gap: 25px;
-    }
-
-    .reachoutFirstDiv{
-        display: grid;
-        gap: 25px;
-    }
-    
-    .reachoutSecondDiv{
-        display: grid;
-        gap: 25px;
-        padding-bottom: 50px;
-    }
-
-
-    .whatsAppColumn.light{
-        display: flex;
-        width: 60%;
-        margin: 0 auto;
-    }
-
-    .whatsAppColumn.dark{
-        display: flex;
-        width: 60%;
-        margin: 0 auto;
-    }
-
-    .telegramColumn.light{
-        display: flex;
-        width: 60%;
-        margin: 0 auto;
-    }
-
-    .telegramColumn.dark{
-        display: flex;
-        width: 60%;
-        margin: 0 auto;
-    }
-
-    .instagramColumn.light{
-        display: flex;
-        width: 60%;
-        margin: 0 auto;
-    }
-
-    .instagramColumn.dark{
-        display: flex;
-        width: 60%;
-        margin: 0 auto;
-    }
-
-    .facebookColumn.light{
-        display: flex;
-        width: 60%;
-        margin: 0 auto;
-    }
-    
-    .facebookColumn.dark{
-        display: flex;
-        width: 60%;
-        margin: 0 auto;
-    }
-}
-
-@media (max-width: 500px) and (max-height: 850px){
-    .reachoutParentSection{
-        padding: 0;
-    }
-
     .reachoutSectionFirstText{
         font-size: 30px;
-        font-family: 'Epilogue', sans-serif;
-        margin-left: 35px;
-        padding-top: 50px;
+        font-family: 'Manrope';
+        margin-left: 15px;
+        padding-top: 25px;
     }
 
     .reachoutSectionSecondText{
-        margin-left: 35px;
+        margin-left: 15px;
+        font-family: 'Manrope';
+        width: 90%;
     }
 
     .reachoutMainDiv{

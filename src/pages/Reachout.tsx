@@ -18,7 +18,7 @@ export const Reachout = () => {
             <Navbar/>
             
             <section className='reachoutSection'>
-                <h1 className='reachoutSectionFirstText'> creatorscale Help </h1>
+                <h1 className='reachoutSectionFirstText'> creatorscale🚀 Help </h1>
                 <p className='reachoutSectionSecondText'>You can reach out to us now through our various socail media platforms</p>
 
                 <div className='reachoutMainDiv'>

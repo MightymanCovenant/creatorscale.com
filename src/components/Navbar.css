@@ -73,7 +73,8 @@ nav .menu span{
 @media (max-width: 480px) {
 
     .active{
-        background-color: blue;
+        background-color: black;
+        color: white;
     }
 
     nav .menu{
